@@ -1,0 +1,17 @@
+import './directory.styles.scss';
+import CategoryItem from '../category-item/category-item.component'
+import React from 'react'
+
+function Directory({ categories }) {
+
+    return (
+        <div className="categories-container">
+            {categories.map((category) => {
+                return <CategoryItem category={category} key={category.id} />
+            })}
+
+        </div>
+    )
+}
+
+export default Directory
