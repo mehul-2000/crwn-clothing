@@ -3,6 +3,8 @@ import { createAuthUserWithEmailAndPassword, createUserDocumentFromAuth } from '
 import Input from '../input/input.component'
 import Button from '../button/button.component'
 import './signupform.styles.scss'
+
+
 function SignUpForm() {
 
 
